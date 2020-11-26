@@ -26,6 +26,9 @@ include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 # Device Path
 DEVICE_PATH := device/xiaomi/wayne
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
