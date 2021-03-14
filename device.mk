@@ -36,6 +36,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# Blur
+TARGET_DISABLE_BLUR := true
+
 # Consumerir
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
